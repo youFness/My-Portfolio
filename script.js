@@ -8,7 +8,7 @@ function toggleMenu() {
  
   var swiper = new Swiper('.swiper-container', {
     slidesPerView: 1,
-    slidesPerGroup:1,
+    slidesPerGroup:3,
     loop:true,
     spaceBetween: 50,
     LoopFillGroupWithBlank:true,
