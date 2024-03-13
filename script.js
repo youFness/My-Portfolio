@@ -8,9 +8,14 @@ function toggleMenu() {
  
   var swiper = new Swiper('.swiper-container', {
     slidesPerView: 1,
-    slidesPerGroup:3,
+    slidesPerGroup:1,
     loop:true,
-    spaceBetween: 50,
+    spaceBetween: 5,
+
+     autoplay: {
+   delay: 3500,
+ },
+
     LoopFillGroupWithBlank:true,
     navigation: {
       nextEl: '.swiper-button-next',
@@ -19,6 +24,10 @@ function toggleMenu() {
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
+    },
+    virtual: {
+      enabled: true,
+      
     },
   });
   
