@@ -149,12 +149,13 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
-  height: 96vh;
+  padding-top: 7vh;
+  height: 93vh;
   margin: 0 2rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
+
 
 .section-container {
   display: flex;
@@ -364,6 +365,10 @@ article .icon {
   position: relative;
   margin-bottom: 10vh;
 }
+/* #projects{
+  padding-top: 100vh;
+
+} */
 
 .color-container {
   border-color: rgb(163, 163, 163);
